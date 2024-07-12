@@ -6,7 +6,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "release": "sgrid release:vite -d dist -p /DigitalTwinScreen -s DigitalTwinScreenServer"
   },
   "dependencies": {
     "animejs": "^3.2.1",
